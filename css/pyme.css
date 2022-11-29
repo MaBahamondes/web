@@ -1,0 +1,114 @@
+.bg-white{
+    background-color: #86469C !important;
+    color: white;
+}
+
+.nav-item{
+    margin: 0px 10px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+@media (max-width: 770px) {
+    .nav-item{
+        margin-left: 15%;
+    }
+} 
+
+.active{
+    font-weight: 700;
+    color: #FECDEA !important;
+}
+
+.nav-item:active{
+    color: #f0cfe3 !important;
+}
+
+.nav-item:hover{
+    color: #FECDEA !important;
+    transform: scale(1.2);
+}
+
+.navbar-toggler{
+    color: #FECDEA !important;
+    border-color: #FECDEA !important;
+    background-color: #FECDEA !important;
+}
+
+.btn-perfil{
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid #BD7ECD;
+    margin-right: 20px;
+}
+
+.btn-perfil:hover{
+    transform: none;
+    border: 2px solid #BD7ECD;
+}
+
+body{
+    background-color: #dc5ea81a;
+}
+
+.text-info{
+    color: #ED66B2 !important;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input,
+select{
+    width: 80%;
+    padding: 2%;
+    font-size: 18px;
+}
+
+.btn-registrarProducto{
+    color: white;
+    background-color: #86469C;
+    font-size: 20px;
+    padding: 2% 0%;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.btn-registrarProducto:hover{
+    background-color: #ED66B2;
+    transform: scale(1.1);
+    color: white;
+}
+
+.btn-modificar{
+    background-color: #ED66B2;
+    color: white;
+}
+
+.btn-eliminar{
+    background-color: red;
+    color: white;
+}
+
+h2{
+    font-size: xxx-large !important;
+    font-weight: bolder;
+}
+
+table{
+    width: 100%;
+    font-size: 18px;
+}
+
+td{
+    padding: 2%;
+    text-align: center;
+    font-weight: 600;
+}

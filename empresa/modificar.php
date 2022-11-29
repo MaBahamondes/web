@@ -28,33 +28,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-light sticky-top 
-            bg-white navbar-main">
-
+      
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-white navbar-main">
         <div class="container">
-
-            <a class="navbar-brand" href=""><img src="iconos/logo.jpg" alt=60px width=60px></a>
+            <a class="navbar-brand" href="">
+                <img src="iconos/logo.jpg" alt=60px width=60px>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">para preparar</a>
+                        <a class="nav-link active" aria-current="page" href="pyme.php">Mis productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="blank" href="#">despacho</a>
+                        <a class="nav-link" aria-current="page" href="./index.html">Para preparar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="blank" href="#">rese���as</a>
+                        <a class="nav-link" target="blank" href="#">Despacho</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="blank" href="./index.html#secsuscribete">finalizada</a>
+                        <a class="nav-link" target="blank" href="#">Rese&ntilde;as</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="blank" href="./index.html#secsuscribete">Finalizada</a>
                     </li>
                    
                     <li class="nav-item">
@@ -62,26 +64,31 @@
                     </li>
                 </ul>
 
-
-
                 <form class="d-flex">
-
                     <li class="nav-item" style="list-style: none; display: flex; align-items: center;">
-                        <a href="singup.html" target="blank"><button type="button"
-                                class="btn btn-outline-success">Perfil</button></a>
+                        <a href="singup.html" target="blank">
+                            <button type="button" class="btn btn-perfil">
+                                Perfil
+                            </button>
+                        </a>
                     </li>
-                    <li class="nav-item" style="list-style: none; display: flex; align-items: center;">
-                        <a href="./historial/INDEX.html" target="#"><button type="button" class="btn btn-outline-success">Mis ventas</button></a>
-                      </li>
-                    <a class="nav-link" href="pagina.html" target="blank"><img src="iconos/carrito.png" alt=60px
-                            width=60px></a>
 
+                    <li class="nav-item" style="list-style: none; display: flex; align-items: center;">
+                        <a href="./historial/INDEX.html" target="#">
+                            <button type="button" class="btn btn-perfil">
+                                Mis ventas
+                            </button>
+                        </a>
+                    </li>
+
+                    <a class="nav-link" href="pagina.html" target="blank">
+                        <img src="iconos/carrito.png" alt=60px width=60px>
+                    </a>
                 </form>
 
             </div>
         </div>
     </nav>
-            <!--navbar-->
 
 
     <div class="container">
